@@ -28,8 +28,8 @@ public class Elements {
     public void interactWithElements() throws InterruptedException {
         // Text Box
         driver.findElement(By.id("item-0")).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userName"))).sendKeys("jagruti");
-        driver.findElement(By.id("userEmail")).sendKeys("jagu@gmail.com");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userName"))).sendKeys("sagar");
+        driver.findElement(By.id("userEmail")).sendKeys("sagar@gmail.com");
         driver.findElement(By.id("currentAddress")).sendKeys("surat");
         driver.findElement(By.id("permanentAddress")).sendKeys("surat");
         driver.findElement(By.id("submit")).click();
